@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top right, white 50%, rgb(63,143,227) 50%);
+}
+
+div {
+    min-height: 550px;
+    height: 100%;
+    width: 30%;
+    margin: 11% auto;
+    background-color: rgba(238, 241, 246, 1);
+    box-shadow: 10px 10px 75px rgba(80, 154, 232, 0.824);
+}
+
+#title {
+    font-size: 28px;
+    color: rgb(63,143,227);
+    padding-top: 50px;
+}
+
+form > label {
+    font-size: 16px;
+    color: rgb(141, 137, 137);
+}
+
+h1, form > label {
+    font-family: sans-serif;
+    padding: 0 30px;
+    display: block;
+}
+
+textarea {
+    border: none;
+    display: block;
+    margin: 0;
+    margin-top: 40px;
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+fieldset {
+    color: gray;
+    border-style: none;
+    text-align: left;
+}
+
+fieldset input {
+    margin: 20px 30px;
+    padding: 0;
+}
+
+#submit {
+    height: 50px;
+    padding: 10px 120px;
+    margin: 0 20px;
+    border: none;
+    background-color: rgb(63,143,227);
+    color: white;
+    font-size: 20px;
+}
